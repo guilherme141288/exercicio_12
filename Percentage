@@ -1,0 +1,4 @@
+#adding a percentage to a value
+
+sal = float (input ('qual é o salário do funcionario?  '))
+print ('um funcionario que ganhava R${}, com 15% de aumento, passa a receber R${:.2f}' .format (sal, sal/100 * (100 + 15)))
